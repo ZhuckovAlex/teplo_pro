@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="header__top-container container">
+				<div class="header__logo">
+					<a href="index.html">
+					<img src="images/logo.png" alt="логотип">
+					</a>
+					<div class="header__logo-content">
+						Для председателей и УК <br> многоквартирных домов
+					</div>
+				</div>
+				<div class="header__top-content">
+				<div class="header__connection">
+				    <img src="images/location.png" alt="локация">
+				    <p class="header__connection-city">Пермь</p>
+				</div>
+				<a href="tel:+70000000000" class="header__tel-link">
+				<div class="header__tel">
+					<img src="images/tel.png" alt="телефон">
+						<p class="header__tel-text">	+7(000)-000-00-00
+						<span>Заказать обратный звонок</span>
+				        </p>
+					</div>
+				</a>
+				</div>
+			</div>
+		</div>
+		<div class="header__nav">
+			<div class="header__nav-container container">
+				<nav>
+					<ul class="header__nav-list">
+						<li class="header__nav-item header__nav-item_1" data-goto="num-1">О компании</li>
+						<li class="header__nav-item header__nav-link header-link">Услуги
+						<img class="header__nav-button" src="images/v.png" alt="кнопка">
+						
+						<li class="header__nav-item" data-goto="num-2">Сфера деятельности</li>
+						<li class="header__nav-item" data-goto="num-3">Наши достижения</li>
+						<li class="header__nav-item" data-goto="num-4">Частые вопросы</li>
+						
+					</ul>
+					  <button class="main__btn hidden" type="button">&#10148;</button>
+				</nav>
+			</div>
+		</div>
+		<div class="header__menu1">
+			<div class="header__menu-item">
+			<p class="header__menu-text">Тепловые пункты</p>
+			<div class="header__menu-button"></div>	
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">УУТЭ – Приборы учета</p>
+				<div class="header__menu-button"></div>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item ">
+				<p class="header__menu-text">Теплообменники</p>
+				<div class="header__menu-button"></div>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Автоматизация и балансировка</p>
+				<div class="header__menu-button"></div>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Для УК</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Для ТСЖ</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Для жителей</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Для производственных предприятий</p>
+			</div>
+		</div>
+        <div class="header__menu2-wrapper">
+		<div class="header__menu2 menu2-1" >
+			<div class="header__menu-item" data-menu="1">
+			<p class="header__menu-text">ЦТП</p>
+			<div class="header__menu-button"></div>	
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="2">
+				<p class="header__menu-text">ИТП</p>
+				<div class="header__menu-button"></div>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="3">
+				<p class="header__menu-text">БТП</p>
+				<div class="header__menu-button"></div>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="4">
+				<p class="header__menu-text">Элеватор регулируемый</p>
+				<div class="header__menu-button"></div>
+			</div>
+		</div>
+			<div class="header__menu2 menu2-2">
+			<div class="header__menu-item" data-menu="5">
+			<p class="header__menu-text">Установка УУТЭ</p>
+			
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="6">
+				<p class="header__menu-text">Проектирование УУТЭ</p>
+			
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="7">
+				<p class="header__menu-text">Монтаж УУТЭ</p>
+			
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="8">
+				<p class="header__menu-text">Что дальше после УУТЭ</p>
+			
+			</div>
+		</div>
+
+			<div class="header__menu2 menu2-3">
+			<div class="header__menu-item" data-menu="9">
+			<p class="header__menu-text">Установка теплообменника на систему отопления</p>
+			
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="10">
+				<p class="header__menu-text">Установка теплообменников на ГВС</p>
+			
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="11">
+				<p class="header__menu-text">Монтаж теплообменников</p>
+			
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="12">
+				<p class="header__menu-text">Проектирование теплообменников</p>
+			
+			</div>
+				<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="12">
+				<p class="header__menu-text">Кожухотрубный теплообменник. Отличие</p>
+			
+			</div>
+				<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="12">
+				<p class="header__menu-text">Пластинчатый теплообменник. Отличие</p>
+			
+			</div>
+				<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="12">
+				<p class="header__menu-text">Что дальше после монтажа теплообменников</p>
+			
+			</div>
+		</div>
+			<div class="header__menu2 menu2-4">
+			<div class="header__menu-item" data-menu="13" >
+			<p class="header__menu-text">Автоматизация отопления МКД</p>
+			
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="14">
+				<p class="header__menu-text">Балансировка отопления МКД</p>
+			
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="15">
+				<p class="header__menu-text">Автоматизация ГВС</p>
+			
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item" data-menu="16">
+				<p class="header__menu-text">Автоматизация ХВС</p>
+				
+			</div>
+		</div>
+        </div>
+     
+        	<div class="header__menu3" data-menu3="1">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Установка ЦТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Проектирование ЦТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Монтаж ЦТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Пуско-наладка ЦТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Что дальше после монтажа ЦТП</p>
+			</div>
+		</div>
+
+		  	<div class="header__menu3" data-menu3="2">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Установка ИТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Проектирование ИТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Монтаж ИТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Пуско-наладка ИТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Что дальше после монтажа ИТП</p>
+			</div>
+		</div>
+
+		  	<div class="header__menu3" data-menu3="3">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Установка БТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Проектирование БТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Монтаж БТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Пуско-наладка БТП</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Что дальше после монтажа БТП</p>
+			</div>
+		</div>
+
+		<div class="header__menu3" data-menu3="4">
+				<div class="header__menu-item">
+				<p class="header__menu-text">Установка элеватора регулируемого</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Проектирование элеватора регулируемого</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Монтаж элеватора регулируемого</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Пуско-наладка элеватора регулируемого</p>
+			</div>
+			<hr size="3" color="#333333">
+			<div class="header__menu-item">
+				<p class="header__menu-text">Что дальше после монтажа элеватора регулируемого</p>
+			</div>
+		</div>
+		
+		<div class="header__location-issue none ">
+			<p class="header__location-text"><span class="city">Пермь</span> ваш город?</p>
+            <div class="header__location-buttons">
+            	<button class="header__location-button1">Да</button>
+            	<button class="header__location-button2">Нет</button>
+            </div>
+		</div>
+		<div class="location-determination none transform">
+			<div class="location-determination__header">
+				<h3 class="location-determination__title">Выберитe ближайший город</h3>
+			</div>
+		
+		<div class="location-determination__wrapper">
+			<div class="location-determination__column">
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">В</h4>
+					<p class="location-determination__item-text">Великий Новгород</p>
+					<p class="location-determination__item-text">Владимир</p>
+					<p class="location-determination__item-text">Волгоград</p>
+					<p class="location-determination__item-text">Вологда</p>
+				</div>
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">Е</h4>
+					<p class="location-determination__item-text">Екатеринбург</p>
+				</div>
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">И</h4>
+					<p class="location-determination__item-text">Ижевск</p>
+				</div>
+			</div>
+			<div class="location-determination__column">
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">К</h4>
+					<p class="location-determination__item-text">Казань</p>
+					<p class="location-determination__item-text">Киров</p>
+					<p class="location-determination__item-text">Курган</p>
+				</div>
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">М</h4>
+					<p class="location-determination__item-text">Москва</p>
+				</div>
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">Н</h4>
+					<p class="location-determination__item-text">Нижний новгород</p>
+					<p class="location-determination__item-text">Нижний Тагил</p>
+					<p class="location-determination__item-text">Новосибирск</p>
+				</div>
+			</div>
+			<div class="location-determination__column">
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">О</h4>
+					<p class="location-determination__item-text">Омск</p>
+					<p class="location-determination__item-text">Оренбург</p>
+				</div>
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">П</h4>
+					<p class="location-determination__item-text">Пенза</p>
+					<p class="location-determination__item-text">Пермь</p>
+				</div>
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">Р</h4>
+					<p class="location-determination__item-text">Рязань</p>
+				</div>
+			</div>
+			<div class="location-determination__column">
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">С</h4>
+					<p class="location-determination__item-text">Самара</p>
+					<p class="location-determination__item-text">Санкт-Петербург</p>
+					<p class="location-determination__item-text">Саранск</p>
+					<p class="location-determination__item-text">Саратов</p>
+				</div>
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">Т</h4>
+					<p class="location-determination__item-text">Тверь</p>
+					<p class="location-determination__item-text">Тольятти</p>
+					<p class="location-determination__item-text">Тула</p>
+					<p class="location-determination__item-text">Тюмень</p>
+				</div>
+			</div>
+			<div class="location-determination__column">
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">У</h4>
+					<p class="location-determination__item-text">Ульяновск</p>
+					<p class="location-determination__item-text">Уфа</p>
+				</div>
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">Ч</h4>
+					<p class="location-determination__item-text">Чебоксары</p>
+					<p class="location-determination__item-text">Челябинск</p>
+					<p class="location-determination__item-text">Череповец</p>
+				</div>
+				<div class="location-determination__item">
+					<h4 class="location-determination__item-title">Я</h4>
+					<p class="location-determination__item-text">Ярославль</p>
+				</div>
+			</div>
+		</div>
+    </div>
+ 
+	</header>
+	<main class="main">
+	<section class="company">
+		<div class="company__wrapper">
+			<h1 class="company__title" id="num-1">Компания ТеплоПро</h1>
+			<p class="company__text text">С другой стороны, экономическая повестка сегодняшнего дня требует от нас анализа первоочередных требований. Как уже неоднократно упомянуто, акционеры крупнейших компаний лишь добавляют фракционных разногласий и призваны к ответу. Идейные соображения высшего порядка, а также существующая теория обеспечивает широкому кругу (специалистов) участие в формировании укрепления моральных ценностей. Не следует, однако, забывать, что высококачественный прототип будущего проекта требует.</p>
+		</div>
+	</section>
+	<div class="services">
+		<div class="services__container container">
+			<ul class="services__items services__items_1">
+				<li class="servicts__item servicts__item_1">
+				    <img class="servicts__img" src="images/servicts1.png" alt="фото">
+				    <h3 class="servicts__item-title">Для УК</h3>
+				 	<p class="servicts__item-text text">Однозначно, стремящиеся вытеснить традиционное производство, нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих.</p>
+				    <a href="" class="servicts__item-link">Подробнее</a>
+					</li>
+				<li class="servicts__item servicts__item_2">
+					<img class="servicts__img" src="images/servicts2.png" alt="фото">
+					<h3 class="servicts__item-title">Для ТСЖ</h3>
+				    <p class="servicts__item-text text">Стремящиеся вытеснить традиционное производство, нанотехнологии призывают нас к новым свершениям.</p>
+				    <a href="" class="servicts__item-link">Подробнее</a>
+					</li>
+				<li class="servicts__item servicts__item_3">
+					<img class="servicts__img" src="images/servicts3.png" alt="фото">
+					<h3 class="servicts__item-title">Для жителей МКД</h3>
+				    <p class="servicts__item-text text">Нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих.</p>
+				    <a href="" class="servicts__item-link">Подробнее</a>
+				 	</li>
+				<li class="servicts__item servicts__item_4">
+					<img class="servicts__img" src="images/servicts4.png" alt="фото">
+					<h3 class="servicts__item-title">Для производственных предприятий</h3>
+				    <p class="servicts__item-text text">Однозначно, стремящиеся вытеснить традиционное производство, нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих.</p>
+				    <a href="" class="servicts__item-link">Подробнее</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<section class="information">
+		<div class="information__container container">
+			<h2 class="information__title title" id="num-2">Сфера деятельности</h2>
+			<p class="information__text text">Для современного мира укрепление и развитие внутренней структуры позволяет выполнить важные задания по разработке поэтапного и последовательного развития общества. А ещё независимые государства могут быть объявлены нарушающими общечеловеческие нормы этики и морали. Вот вам яркий пример современных тенденций — повышение уровня гражданского сознания играет определяющее значение для соответствующих условий активизации. Наше дело не так однозначно, как может показаться: базовый вектор развития предоставляет широкие возможности для экономической целесообразности принимаемых решений. И нет сомнений, что реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Повседневная практика показывает, что укрепление и развитие внутренней структуры выявляет срочную потребность инновационных методов управления процессами.</p>
+
+			<p class="information__text text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: укрепление и развитие внутренней структуры, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для системы массового участия. Значимость этих проблем настолько очевидна, что повышение уровня гражданского сознания предопределяет высокую востребованность инновационных методов управления процессами.</p>
+		</div>
+	</section>
+		<section class="services">
+		<div class="services__container container">
+			<h2 class="services__title title" id="num-3">Наши достижения</h2>
+			<ul class="services__items services__items_2">
+				<li class="servicts__item servicts__item_1">
+				    <img class="servicts__img" src="images/servicts5.png" alt="фото">
+				    <h3 class="servicts__item-title">Проектирование</h3>
+				 	<p class="servicts__item-text text">Однозначно, стремящиеся вытеснить традиционное производство, нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих.</p>
+				    <a href="" class="servicts__item-link">Подробнее</a>
+					</li>
+				<li class="servicts__item servicts__item_2">
+					<img class="servicts__img" src="images/servicts6.png" alt="фото">
+					<h3 class="servicts__item-title">Тепловые пункты</h3>
+				    <p class="servicts__item-text text">Однозначно, стремящиеся вытеснить традиционное производство, нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих.</p>
+				    <a href="" class="servicts__item-link">Подробнее</a>
+					</li>
+				<li class="servicts__item servicts__item_3">
+					<img class="servicts__img" src="images/servicts7.png" alt="фото">
+					<h3 class="servicts__item-title">УУТЭ</h3>
+				    <p class="servicts__item-text text">Однозначно, стремящиеся вытеснить традиционное производство, нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих.</p>
+				    <a href="" class="servicts__item-link">Подробнее</a>
+				 	</li>
+				<li class="servicts__item servicts__item_4">
+					<img class="servicts__img" src="images/servicts8.png" alt="фото">
+					<h3 class="servicts__item-title">Теплообменники</h3>
+				    <p class="servicts__item-text text">Однозначно, стремящиеся вытеснить традиционное производство, нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих.</p>
+				    <a href="" class="servicts__item-link">Подробнее</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="questions">
+		<div class="questions__container container">
+			<h2 class="questions__title title" id="num-4">Часто задаваемые вопросы</h2>
+			<div class="questions__accordion accordion">
+				 <div class="accordion__title">Вопрос1 &dArr;</div>
+        <div class="accordion__content text hiddens">
+        	Однозначно, стремящиеся вытеснить традиционное производство, нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих.
+        </div>
+        		 <div class="accordion__title">Вопрос2 &dArr;</div>
+        <div class="accordion__content text hiddens">
+        	Однозначно, стремящиеся вытеснить традиционное производство, нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих.
+        </div>
+        		 <div class="accordion__title">Вопрос3 &dArr;</div>
+        <div class="accordion__content text hiddens">
+        	Однозначно, стремящиеся вытеснить традиционное производство, нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих.
+        </div>
+        		 <div class="accordion__title">Вопрос4 &dArr;</div>
+        <div class="accordion__content text hiddens">
+        	Однозначно, стремящиеся вытеснить традиционное производство, нанотехнологии призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих.
+        </div>
+			</div>
+		</div>
+	</section>
+
+	</main>
+	<footer class="footer">
+		<div class="footer__container container">
+			<div class="footer__text"><a href="#" class="footer__link">ООО “ТеплоПро” 2014-2023</a></div>
+		
+			<div class="contacts"><a href="#" class="footer__link">+7 (000)-000-00-00</a></div>
+
+		</div>
+		
+	</footer>
+<script src="script/script.js"></script>	
+</body>
+</html>
